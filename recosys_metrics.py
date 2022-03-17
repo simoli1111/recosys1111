@@ -11,7 +11,7 @@ class simo_recosys_metrics:
     def RMSE(predictions):
         return accuracy.rmse(predictions, verbose=False)
 
-    def GetTopN(predictions, n=10, minimumRating=4.0):
+    def GetTopN(predictions, n=10, minimumRating=3.0):
         topN = defaultdict(list)
 
 
