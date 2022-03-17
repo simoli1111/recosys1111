@@ -26,6 +26,7 @@ class simo_recosys_metrics:
         return topN
 
     def HitRate(topNPredicted, leftOutPredictions):
+        # the "topNPredicted" is the output of the "GetTopN()" func defined above
         hits = 0
         total = 0
 
